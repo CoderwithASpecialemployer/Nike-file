@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DVL Marketing – Bewirb dich jetzt</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <nav class="nav">
+    <a href="#hero" class="logo">
+      <img src="logo.png" alt="DVL Marketing Logo">
+    </a>
+    <ul>
+      <li><a href="#hero">Start</a></li>
+      <li><a href="#proof">Inside DVL</a></li>
+      <li><a href="#prozess">Prozess</a></li>
+      <li><a href="#apply">Bewerben</a></li>
+      <li><button id="modeBtn" aria-label="Farbschema umschalten">🌙</button></li>
+    </ul>
+  </nav>
+
+  <header id="hero" class="section hero reveal">
+    <h1 class="mega">Dein neuer Job wartet.</h1>
+    <p class="lead">Verdiene groß. Lerne schnell. Wachse mit uns.</p>
+    <a href="#apply" class="btn-primary pulse">Bewirb dich jetzt</a>
+  </header>
+
+  <section id="stats" class="section reveal stats">
+    <div class="stat"><span class="num" data-target="120">0</span><p>Neukunden / Monat</p></div>
+    <div class="stat"><span class="num" data-target="98">0</span><p>% Zufriedenheit</p></div>
+    <div class="stat"><span class="num" data-target="14">0</span><p>Standorte</p></div>
+  </section>
+
+  <section id="proof" class="section reveal">
+    <h2>Inside DVL</h2>
+    <div class="cards">
+      <article class="card">
+        <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=550&q=60"
+             alt="Jennifer – Team Spirit">
+        <blockquote>„Hier lernst du Vertrieb, der wirklich Spaß macht.“</blockquote>
+        <p class="cite">— Jennifer, Team Lead</p>
+      </article>
+
+      <article class="card">
+        <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=550&q=60"
+             alt="Lea – Recruiting">
+        <blockquote>„Jede Woche neue Challenges – kein Tag ist gleich.“</blockquote>
+        <p class="cite">— Lea, Recruiterin</p>
+      </article>
+
+      <article class="card">
+        <img src="https://images.unsplash.com/photo-1603415526960-f7e0328ea5a4?auto=format&fit=crop&w=550&q=60"
+             alt="Max – Trainee">
+        <blockquote>„Gemeinsam wachsen wir schneller als allein.“</blockquote>
+        <p class="cite">— Max, Trainee</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="prozess" class="section dark reveal">
+    <h2>Recruiting‑Prozess</h2>
+    <ol class="timeline">
+      <li><strong>1‑Minute‑Bewerbung:</strong> Formular ausfüllen, absenden – done.</li>
+      <li><strong>WhatsApp‑Call (24 h):</strong> Kurz‑Check & Termin vereinbaren.</li>
+      <li><strong>Online‑Interview (30 min):</strong> Deine Ziele, unser Job.</li>
+      <li><strong>Schnupper‑Tag:</strong> Einen halben Tag live dabei sein.</li>
+      <li><strong>Vertrag & Onboarding:</strong> Digital unterschreiben und loslegen.</li>
+    </ol>
+  </section>
+
+  <section class="section dark reveal">
+    <h2>Was dich erwartet</h2>
+    <div class="benefits">
+      <div><h3>💸 Top‑Verdienst</h3><p>Fixum + Boni, die sich lohnen.</p></div>
+      <div><h3>🚀 Karriere</h3><p>Vom Rookie zum Team­leiter in Monaten.</p></div>
+      <div><h3>🎯 Coaching</h3><p>Daily Feedback & persönliches Mentoring.</p></div>
+    </div>
+  </section>
+
+  <section id="apply" class="section reveal">
+    <h2>1‑Minute‑Bewerbung</h2>
+    <form class="apply-form" action="mailto:admin@dvl-marketing.de" method="POST" enctype="text/plain">
+      <input type="text"  name="name"  placeholder="Vor‑ & Nachname*" required>
+      <input type="tel"   name="phone" placeholder="Handy*"            required>
+      <input type="email" name="email" placeholder="E‑Mail*"           required>
+      <button type="submit" class="btn-primary full">Abschicken →</button>
+      <small>Pflichtfelder *</small>
+    </form>
+    <p class="hint">Kein Lebenslauf nötig – wir melden uns innerhalb von 24 h.</p>
+  </section>
+
+  <footer>© 2025 DVL Marketing · Alle Rechte vorbehalten</footer>
+  <button id="toTop" aria-label="Nach oben">⇡</button>
+</body>
+</html>
